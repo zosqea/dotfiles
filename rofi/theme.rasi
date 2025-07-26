@@ -1,0 +1,58 @@
+configuration {
+    show-icons: false;
+    font: "JetBrains Mono 12";
+    drun-display-format: "{name}";
+    window-format: "{w}";
+    lines: 1;
+}
+
+* {
+    background-color:   #1c1c1c;
+    text-color:         #ffffff;
+    border-color:       #cfae7c;
+    selected-color:     #545454;
+    line-height:        1.35;
+}
+
+window {
+    location:   northwest;
+    anchor:     northwest;
+    width:      40%;
+    height:     28px;
+    children:   [inputbar, listview];
+    orientation: horizontal;
+    border:     2px;
+}
+
+inputbar {
+    padding:    0 8px;
+    children:   [prompt, entry];
+}
+
+entry {
+    width:              200px;
+    background-color:   #e6a749;
+    text-color:         #1c1c1c;
+}
+
+listview {
+    layout:     horizontal;
+    dynamic:    true;
+}
+
+element {
+    padding: 0 8px;
+}
+
+element selected {
+    background-color: @selected-color;
+}
+
+element-text, element-icon, prompt, textbox {
+    background-color: inherit;
+    text-color: inherit;
+}
+
+prompt {
+    margin-right: 4px;
+}
