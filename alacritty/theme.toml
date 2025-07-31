@@ -1,0 +1,38 @@
+#[colors.normal]
+#black = "#ffffff"
+#blue = "#32bab1"
+#cyan = "#b16286"
+#green = "#52801b"
+#magenta = "#7eded9"
+#red = "#b53531"
+#white = "#1c1c1c"
+#yellow = "#e6a749"
+
+#[colors.primary]
+#background = "#1c1c1c"
+#foreground = "#ffffff"
+
+[colors.primary]
+background = "#1c1c1c"  # Good dark bg
+foreground = "#ffffff"  # Good light fg
+
+[colors.normal]
+black   = "#0f0f0f"     # Dark gray (darker than bg)
+red     = "#b53531"     # Keep your nice red
+green   = "#52801b"     # Keep your green
+yellow  = "#e6a749"     # Keep your yellow
+blue    = "#32bab1"     # Keep your teal-blue
+magenta = "#b16286"     # Move original "cyan" to magenta
+cyan    = "#7eded9"     # Move original "magenta" to cyan
+white   = "#c0c0c0"     # Light gray (softer than foreground)
+
+[colors.bright]
+black   = "#5c5c5c"     # Medium gray
+red     = "#ff6b6b"     # Brighter red
+green   = "#98c379"     # Brighter green
+yellow  = "#f0c674"     # Brighter yellow
+blue    = "#7fdbca"     # Brighter teal
+magenta = "#d3869b"     # Brighter magenta
+cyan    = "#a3f7ff"     # Brighter cyan
+white   = "#ffffff"     # Pure white
+

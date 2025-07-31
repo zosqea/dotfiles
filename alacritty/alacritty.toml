@@ -1,0 +1,10 @@
+
+[font]
+size = 18.0
+
+[font.normal]
+family = "JetBrainsMono Nerd Font"
+style = "bold"
+
+[general]
+import = ["/home/sleepymoth/.config/alacritty/theme.toml"]
